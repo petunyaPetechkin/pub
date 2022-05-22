@@ -1,0 +1,126 @@
+@font-face {font-family: Quicksand-regular;src: url(./fonts/Quicksand/Quicksand-Regular.ttf);}
+@font-face {font-family: Quicksand-bold;src: url(./fonts/Quicksand/Quicksand-Bold.ttf);}
+@font-face {font-family: Quicksand-medium;src: url(./fonts/Quicksand/Quicksand-Medium.ttf);}
+@font-face {font-family: Quicksand-light;src: url(./fonts/Quicksand/Quicksand-Light.ttf);}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 14px;
+    font-weight: 500;
+    color: #252b42;
+}
+img {
+    vertical-align: top;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+a {
+    text-decoration: none;
+}
+ul,ol,li {
+    list-style: none;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+._lock {
+    overflow: hidden;
+}
+._container {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+._btn_default {
+    background: #D2E1FF;
+    padding: 13px 16px;
+    border: none;
+    border-radius: 2px;
+    font-family: Quicksand-medium;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    cursor: pointer;
+    color: #3A79FF;
+    transition: all 0.1s ease;
+}
+.page {
+    width: 100%;
+    flex: 1 1 100%;
+}
+
+
+.header {
+}
+.menu {
+    border: 1px solid tomato;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.menu__right {
+    display: inherit;
+    align-items: center;
+    gap: 74px;
+}
+.menu__left {
+    display: inherit;
+    align-items: center;
+    gap: 44px;}
+.menu__logo {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #5E81FE;
+}
+.menu__nav {
+    
+}
+.menu__list {
+    display: flex;
+    gap: 42px;
+}
+.menu__item {
+}
+.menu__link {
+    font-family: Quicksand-medium;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #697CA6;
+    text-shadow: 0px 0px 5px #E6E6E6;
+}
+.menu__link:hover {
+    color:#6188FF;
+}
+
+.menu__social {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+.menu__social a:hover svg{
+   fill: #5E81FE;
+}
+.menu__btn {
+}
+.page {
+}
+.footer {
+}
